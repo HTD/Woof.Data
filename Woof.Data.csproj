@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Woof</RootNamespace>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Adam Łyskawa</Authors>
     <Company>CodeDog Ltd.</Company>
     <Description>.NET Standard extensions providing the safest and the most effective SQL database interaction.
@@ -15,6 +15,10 @@ This module is dependent on Microsoft SQL database client.</Description>
     <PackageReleaseNotes>Completed XML documentation.</PackageReleaseNotes>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <FileVersion>1.0.1.0</FileVersion>
+    <Product>Woof.Data</Product>
+    <PackageId>Woof.Data</PackageId>
+    <Version>1.0.1</Version>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
