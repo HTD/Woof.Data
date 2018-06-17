@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Woof</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Adam Łyskawa, Kamil Marzec</Authors>
+    <Authors>Adam Łyskawa</Authors>
     <Company>CodeDog Ltd.</Company>
     <Description>.NET Standard extensions providing the safest and the most effective SQL database interaction.
 This module is dependent on Microsoft SQL database client.</Description>
@@ -12,7 +12,13 @@ This module is dependent on Microsoft SQL database client.</Description>
     <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/HTD/Woof.Data</PackageProjectUrl>
     <PackageTags>code core codedog dotnet system data sql tsql</PackageTags>
-    <PackageReleaseNotes>Initial release, may contain some bugs.</PackageReleaseNotes>
+    <PackageReleaseNotes>Completed XML documentation.</PackageReleaseNotes>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Woof.Data.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
